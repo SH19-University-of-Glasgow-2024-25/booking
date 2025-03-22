@@ -1,0 +1,62 @@
+services:
+  database:
+    image: postgres:17.0
+    environment:
+      - POSTGRES_DB=${POSTGRES_DB}
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./pg/postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB} -h database -p 5432"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  django:
+    build: ./backend/
+    command: >
+      sh -c "python manage.py makemigrations &&
+             python manage.py makemigrations bookingandbilling &&
+             python manage.py migrate &&
+             python manage.py collectstatic --noinput &&
+             gunicorn --bind 0.0.0.0:8000 backend.wsgi:application"
+    volumes:
+      - ./backend:/backend
+      - ./backend/staticfiles:/backend/staticfiles  # Correct static files volume
+    ports:
+      - "8000:8000"
+    depends_on:
+      - database
+    env_file:
+      - .env.dev
+
+  react:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    environment:
+      - VITE_APP_BASE_URL=${VITE_APP_BASE_URL}
+    volumes:
+      - ./frontend:/frontend
+      - /frontend/node_modules  # Avoid syncing node_modules for better performance
+    command: npm run build
+
+  nginx:
+    image: nginx:latest
+    depends_on:
+      - django
+      - react
+    ports:
+      - "80:80"  # Expose Nginx on port 80 of the host
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro  # Mount custom Nginx config
+      - ./backend/staticfiles:/backend/staticfiles  # Map staticfiles for Nginx to access
+      - ./frontend/dist:/frontend/dist  # If serving React static files
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost/ || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 3

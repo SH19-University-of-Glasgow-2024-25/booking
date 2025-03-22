@@ -1,0 +1,18 @@
+#!/bin/bash
+BRANCH_NAME_PATTERN="^(bug|feat|chore|style)\/[0-9]+-[a-zA-Z0-9._-]{1,25}$"
+
+while read oldrev newrev refname; do
+    # Extract the branch name from the refname
+    branch="$(git rev-parse --abbrev-ref HEAD)"
+
+    # Validate the branch name
+    if ! [[ "$branch" =~ $BRANCH_NAME_PATTERN ]]; then
+        echo "Error: Branch names must follow the format:"
+        echo "(bug|feat|chore|style)/<issue number>-<branch name>"
+        echo "Example: feat/56-admin-registration"
+        echo "Your branch name: $branch."
+        exit 1
+    fi
+done
+
+exit 0

@@ -1,0 +1,102 @@
+[
+    {
+        "email": "richard@p.com",
+        "first_name": "Richard",
+        "last_name": "Harris",
+        "phone_number": "07765123471",
+        "address": "12 Broadway Avenue",
+        "postcode": "AB13 4DE",
+        "gender": "M",
+        "password":"test"
+    },
+    {
+        "email": "patricia@q.com",
+        "first_name": "Patricia",
+        "last_name": "King",
+        "phone_number": "07765123472",
+        "address": "34 Elm Grove",
+        "postcode": "EF45 6GH",
+        "gender": "F",
+        "password":"test"
+    },
+    {
+        "email": "george@r.com",
+        "first_name": "George",
+        "last_name": "Young",
+        "phone_number": "07765123473",
+        "address": "56 Pine Lane",
+        "postcode": "IJ67 8KL",
+        "gender": "M",
+        "password":"test"
+    },
+    {
+        "email": "samantha@s.com",
+        "first_name": "Samantha",
+        "last_name": "Scott",
+        "phone_number": "07765123474",
+        "address": "78 Cedar Road",
+        "postcode": "MN89 0OP",
+        "gender": "F",
+        "password":"test"
+    },
+    {
+        "email": "henry@t.com",
+        "first_name": "Henry",
+        "last_name": "Adams",
+        "phone_number": "07765123475",
+        "address": "90 Maple Street",
+        "postcode": "QR12 3ST",
+        "gender": "M",
+        "password":"test"
+    },
+    {
+        "email": "nancy@u.com",
+        "first_name": "Nancy",
+        "last_name": "Mitchell",
+        "phone_number": "07765123476",
+        "address": "102 Oak Court",
+        "postcode": "UV34 5WX",
+        "gender": "F",
+        "password":"test"
+    },
+    {
+        "email": "robert@v.com",
+        "first_name": "Robert",
+        "last_name": "Clark",
+        "phone_number": "07765123477",
+        "address": "304 Birch Avenue",
+        "postcode": "YZ45 6AB",
+        "gender": "M",
+        "password":"test"
+    },
+    {
+        "email": "lisa@w.com",
+        "first_name": "Lisa",
+        "last_name": "Evans",
+        "phone_number": "07765123478",
+        "address": "506 Willow Lane",
+        "postcode": "CD67 8EF",
+        "gender": "F",
+        "password":"test"
+    },
+    {
+        "email": "andrew@x.com",
+        "first_name": "Andrew",
+        "last_name": "Nelson",
+        "phone_number": "07765123479",
+        "address": "708 Ash Road",
+        "postcode": "GH90 1IJ",
+        "gender": "M",
+        "password":"test"
+    },
+    {
+        "email": "katherine@y.com",
+        "first_name": "Katherine",
+        "last_name": "Baker",
+        "phone_number": "07765123480",
+        "address": "810 Red Oak Drive",
+        "postcode": "KL12 3MN",
+        "gender": "F",
+        "password":"test"
+    }
+]

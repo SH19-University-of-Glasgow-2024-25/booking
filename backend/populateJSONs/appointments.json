@@ -1,0 +1,102 @@
+[
+    {
+        "planned_start_time": [2024, 12, 1, 9, 0],
+        "planned_duration": [2, 30],
+        "location": "150 Random Street"
+    },
+    {
+        "planned_start_time": [2024, 12, 1, 10, 0],
+        "planned_duration": [1, 45],
+        "location": "250 Main Avenue"
+    },
+    {
+        "planned_start_time": [2024, 12, 1, 11, 15],
+        "planned_duration": [3, 0],
+        "location": "123 Elm Street"
+    },
+    {
+        "planned_start_time": [2024, 12, 1, 14, 0],
+        "planned_duration": [1, 30],
+        "location": "456 Oak Lane"
+    },
+    {
+        "planned_start_time": [2024, 12, 1, 15, 0],
+        "planned_duration": [2, 0],
+        "location": "789 Pine Road"
+    },
+    {
+        "planned_start_time": [2024, 12, 1, 16, 0],
+        "planned_duration": [1, 0],
+        "location": "101 Maple Street"
+    },
+    {
+        "planned_start_time": [2024, 12, 2, 9, 30],
+        "planned_duration": [2, 30],
+        "location": "202 Birch Boulevard"
+    },
+    {
+        "planned_start_time": [2024, 12, 2, 12, 0],
+        "planned_duration": [3, 0],
+        "location": "303 Cedar Lane"
+    },
+    {
+        "planned_start_time": [2024, 12, 2, 14, 15],
+        "planned_duration": [1, 45],
+        "location": "404 Willow Drive"
+    },
+    {
+        "planned_start_time": [2024, 12, 2, 16, 0],
+        "planned_duration": [2, 0],
+        "location": "505 Redwood Road"
+    },
+    {
+        "planned_start_time": [2024, 12, 2, 18, 0],
+        "planned_duration": [1, 30],
+        "location": "606 Pinewood Crescent"
+    },
+    {
+        "planned_start_time": [2024, 12, 3, 9, 0],
+        "planned_duration": [2, 30],
+        "location": "707 Oakwood Street"
+    },
+    {
+        "planned_start_time": [2024, 12, 3, 10, 0],
+        "planned_duration": [3, 0],
+        "location": "808 Riverbank Drive"
+    },
+    {
+        "planned_start_time": [2024, 12, 3, 13, 0],
+        "planned_duration": [2, 0],
+        "location": "909 Hilltop Avenue"
+    },
+    {
+        "planned_start_time": [2024, 12, 3, 15, 30],
+        "planned_duration": [1, 30],
+        "location": "1002 Coastal Road"
+    },
+    {
+        "planned_start_time": [2024, 12, 3, 17, 0],
+        "planned_duration": [2, 15],
+        "location": "1103 Grand Street"
+    },
+    {
+        "planned_start_time": [2024, 12, 4, 8, 30],
+        "planned_duration": [1, 0],
+        "location": "1204 Sunset Boulevard"
+    },
+    {
+        "planned_start_time": [2024, 12, 4, 9, 30],
+        "planned_duration": [2, 0],
+        "location": "1305 Park Lane"
+    },
+    {
+        "planned_start_time": [2024, 12, 4, 12, 0],
+        "planned_duration": [2, 30],
+        "location": "1406 Spring Hill"
+    },
+    {
+        "planned_start_time": [2024, 12, 4, 14, 15],
+        "planned_duration": [1, 15],
+        "location": "1507 Riverfront Road"
+    }
+]

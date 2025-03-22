@@ -1,0 +1,11 @@
+#!/bin/bash
+COMMIT_MSG_PATTERN="^(fix|feat|chore|style): .+ Ref #[0-9]+$"
+
+commit_msg=$(cat "$1")
+if ! echo "$commit_msg" | grep -Eq "$COMMIT_MSG_PATTERN"; then
+    echo "$commit_msg"
+    echo "Error: Commit message must follow the format:"
+    echo "(fix|feat|chore|style): <commit message> Ref #<issue_num>"
+    echo "Example: feat: Add login functionality"
+    exit 1
+fi

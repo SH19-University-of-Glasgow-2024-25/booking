@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# Run ESLint and capture output
+cd frontend
+eslint_output=$(npx eslint . --no-color 2>&1)
+eslint_status=$?
+
+# If any command fails, print errors and exit
+if [ $eslint_status -ne 0 ]; then
+    echo "Linting or pre-commit checks failed. Fix the following errors before pushing:"
+    echo "Ensure you have npm installed!"
+    echo ""
+
+    if [ $eslint_status -ne 0 ]; then
+        echo "------ ESLint Errors ------"
+        echo "$eslint_output" | tr -d '\r'
+        echo ""
+    fi
+
+    exit 1
+fi
+
+echo "All checks passed. Proceeding with push."
+exit 0

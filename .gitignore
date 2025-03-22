@@ -1,0 +1,7 @@
+pg/
+.env*
+.DS_Store
+nginx/.htpasswd
+
+node_modules
+*package-lock.json

@@ -1,0 +1,15 @@
+[
+    {"tag": "Has car", "color": "#FF5733"},
+    {"tag": "Needs transportation", "color": "#6A5ACD"},
+    {"tag": "Has a flexible schedule", "color": "#FFD700"},
+    {"tag": "Requires special assistance", "color": "#FF69B4"},
+    {"tag": "Needs parking", "color": "#F7F9F9"},
+    {"tag": "Needs rest time", "color": "#ADFF2F"},
+    {"tag": "Has a job", "color": "#7FFF00"},
+    {"tag": "Able to travel", "color": "#8B4513"},
+    {"tag": "Requires a late-night", "color": "#F0E68C"},
+    {"tag": "Prefers virtual meetings", "color": "#8A2BE2"},
+    {"tag": "Prefers mornings", "color": "#20B2AA"},
+    {"tag": "Wheelchair accessible", "color": "#FF6347"},
+    {"tag": "Has flexible schedule", "color": "#6A5ACD"}
+  ]

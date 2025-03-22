@@ -1,0 +1,26 @@
+[flake8]
+
+max-line-length = 100
+select = C,E,F,W,B950
+ignore =
+    W291,
+    W292,
+    F401,
+    E126,
+    E203,
+    E231,
+    E261,
+    E302,
+    E402,
+    F403,
+    W293,
+    E999,
+exclude =
+    .git,
+    __pycache__,
+    Dockerfile,
+    .gitignore,
+    __init__.py,
+    settings.py,
+tabs-only = True
+

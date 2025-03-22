@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+[data-bs-theme="dark"] {
+    --bs-tertiary-bg-rgb: 24, 24, 24;
+}
+
+.green-texture .navbar-nav {
+    --bs-nav-link-color: rgba(255, 255, 255, 1);
+}
+
+#root {
+    font-family: "Roboto", sans-serif;
+}
+
+.app-container {
+    min-height: 100vh;
+}
+
+.center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.green-texture {
+    background-color: #098e52 !important;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blue-texture {
+    background-color: #5c93da !important;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.yellow-texture {
+    background-color: #ffd332 !important;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pink-texture {
+    background-color: #ff3683 !important;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-container {
+    min-height: 100vh;
+    padding-top: 20px;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding-top: 10px;
+    min-height: 80vh;
+}
+
+.logout-button,
+.admin-button,
+.appointments-button,
+.accepted-appointments-button,
+.translations-button,
+.appointments-button,
+.accepted-appointments-button {
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.logout-button:hover,
+.admin-button:hover,
+.appointments-button:hover,
+.translations-button:hover,
+.accepted-appointments-button:hover {
+    background-color: #005830;
+}
+
+.error-container,
+.success-container {
+    background-color: white;
+    padding: 1.5em;
+    border-radius: 5px;
+    margin-bottom: 2em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.error-container {
+    box-shadow: 0 4px 8px rgba(225, 0, 0, 0.4);
+}
+
+.success-container {
+    border: none;
+}
+
+.error-container details {
+    color: #5b5b5b;
+}
+
+.appointment-selection,
+.translation-selection,
+.interpreter-selection {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 8px;
+    position: relative;
+}
+
+.appointment-selection:hover,
+.translation-selection:hover,
+.interpreter-selection:hover {
+    background-color: #d1f4e5;
+    cursor: pointer;
+}
+
+#edit-profile {
+    gap: 10px;
+}
+.confirm-password-off {
+    display: none;
+}
+.edit-profile-password-pair {
+    margin: 0;
+}
+.top-right-status-red {
+    background-color: #00730f;
+    color: white;
+}
+
+.top-right-status-green {
+    background-color: #00760a;
+    color: white;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    border-radius: 3px;
+    padding: 4px;
+    font-weight: bold;
+}
+
+.email-text {
+    text-align: center;
+}
+
+.card {
+    transition: 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card.row-xs {
+    max-width: 250px;
+}

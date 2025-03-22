@@ -1,0 +1,35 @@
+    [{
+    "email": "barry@a.com",
+    "first_name": "Barry",
+    "last_name": "Jones",
+    "phone_number": "07765123456",
+    "password":"test"
+    },
+    {
+    "email": "susan@b.com",
+    "first_name": "Susan",
+    "last_name": "Smith",
+    "phone_number": "07765123457",
+    "password":"test"
+    },
+    {
+    "email": "john@c.com",
+    "first_name": "John",
+    "last_name": "Doe",
+    "phone_number": "07765123458",
+    "password":"test"
+    },
+    {
+    "email": "alice@d.com",
+    "first_name": "Alice",
+    "last_name": "Brown",
+    "phone_number": "07765123459",
+    "password":"test"
+    },
+    {
+    "email": "mike@e.com",
+    "first_name": "Mike",
+    "last_name": "Taylor",
+    "phone_number": "07765123460",
+    "password":"test"
+    }]

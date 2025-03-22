@@ -1,0 +1,31 @@
+repos:
+  - repo: https://github.com/PyCQA/flake8
+    rev: 7.1.1
+    hooks:
+      - id: flake8
+        name: Backend Lint
+        stages: [pre-commit]
+
+  - repo: local
+    hooks:
+      - id: eslint
+        name: Frontend Lint
+        entry: bash -c "cd frontend && npx eslint ."
+        language: system
+        stages: [pre-commit]
+
+  - repo: local
+    hooks:
+      - id: check-branch-name
+        name: Branch Name Validity
+        entry: bash .githooks/pre-push
+        language: system
+        stages: [pre-commit]  # Only run during push
+
+  - repo: local
+    hooks:
+      - id: check-commit-name
+        name: Commit Name Validity
+        entry: bash .githooks/commit-msg
+        language: system
+        stages: [commit-msg]  # Only run during commit-msg

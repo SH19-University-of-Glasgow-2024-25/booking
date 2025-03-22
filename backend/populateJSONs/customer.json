@@ -1,0 +1,100 @@
+[{
+    "email": "linda@f.com",
+    "first_name": "Linda",
+    "last_name": "Green",
+    "organisation": "The Institute",
+    "phone_number": "07765123461",
+    "address": "123 Elm Street",
+    "postcode": "AB12 3CD",
+    "password":"test"
+    },
+    {
+    "email": "paul@g.com",
+    "first_name": "Paul",
+    "last_name": "White",
+    "organisation": "The Institute",
+    "phone_number": "07765123462",
+    "address": "45 Oak Avenue",
+    "postcode": "EF34 5GH",
+    "password":"test"
+    },
+    {
+    "email": "emma@h.com",
+    "first_name": "Emma",
+    "last_name": "Black",
+    "organisation": "The Institute",
+    "phone_number": "07765123463",
+    "address": "67 Maple Road",
+    "postcode": "IJ56 7KL",
+    "password":"test"
+    },
+    {
+    "email": "james@i.com",
+    "first_name": "James",
+    "last_name": "Wilson",
+    "organisation": "The Institute",
+    "phone_number": "07765123464",
+    "address": "89 Birch Lane",
+    "postcode": "MN78 9OP",
+    "password":"test"
+    },
+    {
+    "email": "karen@j.com",
+    "first_name": "Karen",
+    "last_name": "Davis",
+    "organisation": "The Institute",
+    "phone_number": "07765123465",
+    "address": "101 Cedar Drive",
+    "postcode": "QR12 3ST",
+    "password":"test"
+    },
+    {
+    "email": "steve@k.com",
+    "first_name": "Steve",
+    "last_name": "Moore",
+    "organisation": "The Institute",
+    "phone_number": "07765123466",
+    "address": "202 Pine Street",
+    "postcode": "UV45 6WX",
+    "password":"test"
+    },
+    {
+    "email": "diane@l.com",
+    "first_name": "Diane",
+    "last_name": "Taylor",
+    "organisation": "The Institute",
+    "phone_number": "07765123467",
+    "address": "303 Spruce Court",
+    "postcode": "YZ78 9AB",
+    "password":"test"
+    },
+    {
+    "email": "mark@m.com",
+    "first_name": "Mark",
+    "last_name": "Clark",
+    "organisation": "The Institute",
+    "phone_number": "07765123468",
+    "address": "404 Ash Road",
+    "postcode": "CD12 3EF",
+    "password":"test"
+    },
+    {
+    "email": "sophie@n.com",
+    "first_name": "Sophie",
+    "last_name": "Hall",
+    "organisation": "The Institute",
+    "phone_number": "07765123469",
+    "address": "505 Redwood Boulevard",
+    "postcode": "GH45 6IJ",
+    "password":"test"
+    },
+    {
+    "email": "brian@o.com",
+    "first_name": "Brian",
+    "last_name": "Adams",
+    "organisation": "The Institute",
+    "phone_number": "07765123470", 
+    "address": "606 Cypress Street",
+    "postcode": "KL78 9MN",
+    "password":"test"
+}]

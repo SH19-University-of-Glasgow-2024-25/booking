@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<div>
+
+    <img src="cid:logo" style="height: 20%; width: 20%;">
+
+    <p>Hello {{ first_name }}</p>
+
+    <p>An Interpreter has accepted your Appointment</p>
+
+    <p>Appointment Date: {{ appointment_date }}</p>
+    <p>Appointment Time: {{ appointment_time }}</p>
+    <p>Appointment Location: {{ location }}</p>
+    <p>Language: {{ language }}</p>
+    <p>Interpreter: {{ interpreter }}</p>
+    
+    <p><a href="{{ url }}">Click Here to view</a></p>
+
+</div>
