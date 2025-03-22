@@ -1,5 +1,6 @@
-# SH19 Main
+# SH19 Booking Platform
 
+## Developers
 - Aiden Lindsay - 2747612l@student.gla.ac.uk
 - Josh Adams - 2765024a@student.gla.ac.uk
 - Paul McHugh - 2775943m@student.gla.ac.uk
@@ -7,6 +8,11 @@
 - Liam Murphy - 2759113m@student.gla.ac.uk
 - Usmaan Wahab - 2777904w@student.gla.ac.uk
 - Peter Warrington - 2746910w@student.gla.ac.uk
+
+## Overview
+A booking platform developed as part of a year-long team project at the University of Glasgow. This project is built using React, Django, and PostgreSQL. To learn more about the project read the frontend and backend developer guides and the user guide.
+
+Below is a guide of some of the system, further guides are found in the front and backend READMEs and in the docs folder.
 
 # Docker
 
@@ -17,7 +23,7 @@ Note: you may need to add your user to the docker group if you get a permissions
 
 Use `docker ps --format "{{.Names}}"` to view the names of running containers.
 
-## Debugging PostgrSQL
+## Debugging PostgreSQL
 If you would like to view the database directly, use the following sequence of comamnds.
 - `(sudo) docker compose --env-file .env.dev -f docker-compose-dev.yml up`
     - Build/run the containers like normal.
